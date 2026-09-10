@@ -1,0 +1,8 @@
+[project]
+name = "hiver-support-agent"
+version = "0.1.0"
+description = "Auditable, retrieval-grounded support agent prototype for Hiver's SDE intern assignment"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

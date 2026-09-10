@@ -1,0 +1,181 @@
+message_id,brand,customer_text,intent,expected_reply,expected_decision,verified_by_human
+gold-001,AmazonHelp,"My delivery is late again, where is it? I have already checked tracking.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-002,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-003,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-004,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-005,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-006,AmazonHelp,This support experience has been terrible I have already checked tracking.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-007,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-008,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-009,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-010,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-011,AmazonHelp,Where is my package right now? I have already checked tracking.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-012,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-013,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-014,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-015,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-016,AmazonHelp,My item arrived broken I have already checked tracking.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-017,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-018,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-019,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-020,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-021,AmazonHelp,Password reset does not work I have already checked tracking.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-022,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-023,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-024,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-025,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-026,AmazonHelp,I need a refund for the cancelled order I have already checked tracking.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-027,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-028,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-029,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-030,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-031,AmazonHelp,Package was due yesterday and tracking has stopped I have already checked tracking.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-032,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-033,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-034,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-035,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-036,AmazonHelp,I am very disappointed with this service I have already checked tracking.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-037,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-038,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-039,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-040,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-041,AmazonHelp,Can you track my order please? I have already checked tracking.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-042,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-043,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-044,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-045,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-046,AmazonHelp,The package has the wrong item inside I have already checked tracking.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-047,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-048,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-049,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-050,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-051,AmazonHelp,My account is locked and I cannot login I have already checked tracking.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-052,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-053,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-054,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-055,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-056,AmazonHelp,Why was I charged after I returned this? I have already checked tracking.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-057,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-058,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-059,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-060,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-061,AmazonHelp,"My delivery is late again, where is it? I have already checked tracking.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-062,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-063,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-064,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-065,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-066,AmazonHelp,This support experience has been terrible I have already checked tracking.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-067,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-068,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-069,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-070,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-071,AmazonHelp,Where is my package right now? I have already checked tracking.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-072,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-073,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-074,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-075,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-076,AmazonHelp,My item arrived broken I have already checked tracking.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-077,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-078,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-079,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-080,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-081,AmazonHelp,Password reset does not work I have already checked tracking.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-082,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-083,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-084,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-085,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-086,AmazonHelp,I need a refund for the cancelled order I have already checked tracking.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-087,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-088,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-089,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-090,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-091,AmazonHelp,Package was due yesterday and tracking has stopped I have already checked tracking.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-092,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-093,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-094,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-095,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-096,AmazonHelp,I am very disappointed with this service I have already checked tracking.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-097,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-098,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-099,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-100,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-101,AmazonHelp,Can you track my order please? I have already checked tracking.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-102,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-103,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-104,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-105,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-106,AmazonHelp,The package has the wrong item inside I have already checked tracking.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-107,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-108,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-109,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-110,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-111,AmazonHelp,My account is locked and I cannot login I have already checked tracking.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-112,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-113,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-114,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-115,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-116,AmazonHelp,Why was I charged after I returned this? I have already checked tracking.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-117,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-118,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-119,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-120,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-121,AmazonHelp,"My delivery is late again, where is it? I have already checked tracking.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-122,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-123,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-124,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-125,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-126,AmazonHelp,This support experience has been terrible I have already checked tracking.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-127,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-128,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-129,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-130,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-131,AmazonHelp,Where is my package right now? I have already checked tracking.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-132,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-133,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-134,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-135,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-136,AmazonHelp,My item arrived broken I have already checked tracking.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-137,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-138,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-139,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-140,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-141,AmazonHelp,Password reset does not work I have already checked tracking.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-142,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-143,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-144,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-145,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-146,AmazonHelp,I need a refund for the cancelled order I have already checked tracking.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-147,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-148,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-149,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-150,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-151,AmazonHelp,Package was due yesterday and tracking has stopped I have already checked tracking.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-152,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-153,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-154,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-155,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-156,AmazonHelp,I am very disappointed with this service I have already checked tracking.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-157,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-158,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-159,AmazonHelp,My account is locked and I cannot login Please help.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-160,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-161,AmazonHelp,Can you track my order please? I have already checked tracking.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-162,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-163,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-164,AmazonHelp,Why was I charged after I returned this? Please help.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-165,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-166,AmazonHelp,The package has the wrong item inside I have already checked tracking.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-167,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-168,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false
+gold-169,AmazonHelp,"My delivery is late again, where is it? Please help.",delivery_delay,Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,auto_handle,false
+gold-170,AmazonHelp,I need a refund for the cancelled order Please help.,refund_request,Sorry about this. Please DM your order details so our team can review your refund request.,escalate,false
+gold-171,AmazonHelp,My account is locked and I cannot login I have already checked tracking.,account_access,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,escalate,false
+gold-172,AmazonHelp,My item arrived broken Please help.,damaged_item,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,auto_handle,false
+gold-173,AmazonHelp,Can you track my order please? Please help.,order_status,Please send your order number by DM and we will check the latest tracking information.,auto_handle,false
+gold-174,AmazonHelp,This support experience has been terrible Please help.,general_complaint,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,auto_handle,false
+gold-175,AmazonHelp,Package was due yesterday and tracking has stopped Please help.,delivery_delay,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,auto_handle,false
+gold-176,AmazonHelp,Why was I charged after I returned this? I have already checked tracking.,refund_request,Please send the order details by DM and our team will review the charge and return.,escalate,false
+gold-177,AmazonHelp,Password reset does not work Please help.,account_access,Please contact us by DM so our team can safely help with your account access.,escalate,false
+gold-178,AmazonHelp,The package has the wrong item inside Please help.,damaged_item,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,auto_handle,false
+gold-179,AmazonHelp,Where is my package right now? Please help.,order_status,We can help check the delivery status. Please DM the order number.,auto_handle,false
+gold-180,AmazonHelp,I am very disappointed with this service Please help.,general_complaint,Sorry to hear this. Please DM the relevant order details so we can help.,auto_handle,false

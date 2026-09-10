@@ -1,0 +1,2 @@
+# The prototype intentionally uses only Python's standard library.
+# Optional: set OPENAI_API_KEY to enable an external LLM judge in a future extension.

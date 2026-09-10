@@ -1,0 +1,13 @@
+message_id,brand,customer_text,agent_reply,intent
+history-1,AmazonHelp,"My delivery is late again, where is it?",Sorry your delivery has not arrived as expected. Please send your order number by DM so our team can check the latest delivery status.,delivery_delay
+history-2,AmazonHelp,Package was due yesterday and tracking has stopped,Sorry for the delay. Please DM your order number and we will check the latest delivery update.,delivery_delay
+history-3,AmazonHelp,I need a refund for the cancelled order,Sorry about this. Please DM your order details so our team can review your refund request.,refund_request
+history-4,AmazonHelp,Why was I charged after I returned this?,Please send the order details by DM and our team will review the charge and return.,refund_request
+history-5,AmazonHelp,My account is locked and I cannot login,Sorry you cannot access your account. Please DM us so we can help verify and restore access.,account_access
+history-6,AmazonHelp,Password reset does not work,Please contact us by DM so our team can safely help with your account access.,account_access
+history-7,AmazonHelp,My item arrived broken,Sorry your item arrived damaged. Please send your order number and a photo by DM so we can review replacement options.,damaged_item
+history-8,AmazonHelp,The package has the wrong item inside,Sorry about the incorrect item. Please DM your order details and a photo so we can help.,damaged_item
+history-9,AmazonHelp,Can you track my order please?,Please send your order number by DM and we will check the latest tracking information.,order_status
+history-10,AmazonHelp,Where is my package right now?,We can help check the delivery status. Please DM the order number.,order_status
+history-11,AmazonHelp,This support experience has been terrible,Sorry this experience has been frustrating. Please DM the details so our team can investigate.,general_complaint
+history-12,AmazonHelp,I am very disappointed with this service,Sorry to hear this. Please DM the relevant order details so we can help.,general_complaint
