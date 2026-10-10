@@ -43,7 +43,7 @@ def main() -> None:
         print(json.dumps({"created": ["data/demo/historical_resolutions.csv", "data/golden/golden_set.csv"], "note": "Synthetic demo data only; review golden labels against the real Kaggle subsample before submission."}, indent=2))
         return
     if not (root / "data/demo/historical_resolutions.csv").exists():
-        raise SystemExit("Run `python -m hiver_agent.cli bootstrap-demo` first.")
+        raise SystemExit("Run `python -m relay_agent.cli bootstrap-demo` first.")
     agent = make_agent(root)
     if arguments.command == "run":
         if not arguments.text:

@@ -2,10 +2,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
 
-from hiver_agent.demo import bootstrap
-from hiver_agent.data import read_historical
-from hiver_agent.models import SupportMessage
-from hiver_agent.pipeline import SupportAgent
+from relay_agent.demo import bootstrap
+from relay_agent.data import read_historical
+from relay_agent.models import SupportMessage
+from relay_agent.pipeline import SupportAgent
 
 
 class PipelineTests(unittest.TestCase):
