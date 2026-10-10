@@ -14,4 +14,4 @@ Columns: `message_id`, `brand`, `customer_text`, `agent_reply`, `intent`.
 
 Columns: `message_id`, `brand`, `customer_text`, `intent`, `expected_reply`, `expected_decision`, `verified_by_human`.
 
-Run `python -m relay_agent.cli bootstrap-demo` from the repository root to regenerate both fixtures. See [PROJECT_REQUIREMENTS.md](../PROJECT_REQUIREMENTS.md) for the real-data replacement checklist.
+Run `python -m relay_agent.cli bootstrap-demo` from the repository root to regenerate both fixtures. Before formal evaluation, replace them with a documented, permitted data sample, review labels independently, and avoid sharing conversations between retrieval and evaluation sets.

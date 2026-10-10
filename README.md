@@ -52,13 +52,10 @@ The `auto_handle` result is a recommendation for a downstream human-reviewed wor
 | `data/demo/` | Small synthetic historical-resolution examples used by the demo. |
 | `data/golden/` | Synthetic evaluation examples; labels are not human verified. |
 | `data/README.md` | Fixture schemas, counts, and guidance for replacing the generated data. |
-| `PROJECT_REQUIREMENTS.md` | Assignment requirements mapping and real-data replacement checklist. |
-| `DECISION_LOG.md` | Design decisions and safety rationale. |
-| `REPORT.md` | Evaluation report template. |
 
 ## Data and evaluation
 
-The checked-in CSVs are generated demo fixtures, not a real or human-reviewed benchmark. Their evaluation scores must not be presented as real-world performance. Before using Relay for a formal evaluation, replace the fixtures with a documented, permitted dataset sample; independently review the golden labels and replies; and prevent conversation-level leakage between retrieval and evaluation data. See [PROJECT_REQUIREMENTS.md](PROJECT_REQUIREMENTS.md) and [REPORT.md](REPORT.md) for the checklist and reporting template.
+The checked-in CSVs are generated demo fixtures, not a real or human-reviewed benchmark. Their evaluation scores must not be presented as real-world performance. Before a formal evaluation, replace them with a documented, permitted dataset sample, independently review the golden labels and replies, and prevent conversation-level leakage between retrieval and evaluation data. `data/README.md` documents the fixture schemas and replacement considerations.
 
 The default reply-quality score is a transparent offline proxy, not an LLM judge or human rating. To optionally score evaluation replies with the OpenAI API, set `OPENAI_API_KEY` and run:
 

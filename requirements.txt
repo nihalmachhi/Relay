@@ -1,2 +1,0 @@
-# Relay's core prototype intentionally uses only Python's standard library.
-# The optional --judge openai command calls the OpenAI API using OPENAI_API_KEY.
