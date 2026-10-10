@@ -6,3 +6,6 @@ artifacts/
 data/raw/
 data/processed/
 data/audit.sqlite3
+data/audit.sqlite3-journal
+data/audit.sqlite3-wal
+data/audit.sqlite3-shm
