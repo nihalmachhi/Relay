@@ -1,4 +1,5 @@
-# Decision log
+# Relay decision log
+
 
 1. Focused on AmazonHelp so intent definitions and historical language stay brand-specific.
 2. Used six intents because small, separable classes are easier to audit than an over-granular taxonomy.
@@ -14,3 +15,4 @@
 12. Made the offline reply scorer explicitly a proxy rather than calling it an LLM judge.
 13. Require human review of golden labels before setting `verified_by_human=true`.
 14. Treat auto-handle as a recommendation only; this prototype never sends the reply.
+15. Name the reusable project and Python package Relay while keeping the AmazonHelp support workflow as the prototype's dataset context.
