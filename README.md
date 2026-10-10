@@ -19,6 +19,8 @@ python -m relay_agent.cli evaluate
 
 `bootstrap-demo` creates synthetic example and evaluation CSVs. `run` prints a JSON result. `evaluate` prints metrics and writes `artifacts/evaluation.json`; each handled message is also recorded in `data/audit.sqlite3`.
 
+All commands accept `--root PATH` when you want the input data and generated artifacts to live under a different project directory. By default, Relay uses the repository root.
+
 To run the test suite:
 
 ```powershell
@@ -49,6 +51,7 @@ The `auto_handle` result is a recommendation for a downstream human-reviewed wor
 | `tests/` | Automated checks for escalation and pipeline output. |
 | `data/demo/` | Small synthetic historical-resolution examples used by the demo. |
 | `data/golden/` | Synthetic evaluation examples; labels are not human verified. |
+| `data/README.md` | Fixture schemas, counts, and guidance for replacing the generated data. |
 | `PROJECT_REQUIREMENTS.md` | Assignment requirements mapping and real-data replacement checklist. |
 | `DECISION_LOG.md` | Design decisions and safety rationale. |
 | `REPORT.md` | Evaluation report template. |
