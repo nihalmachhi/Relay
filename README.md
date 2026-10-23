@@ -30,6 +30,22 @@ python -m unittest discover -s tests -v
 
 ## How it works
 
+Relay processes a support message through retrieval, intent prediction, constrained drafting, and a conservative escalation check. It returns the evidence and reason so a human can decide what to do.
+
+```mermaid
+flowchart LR
+  A[Support message] --> B[Retrieve similar resolved examples]
+  B --> C[Predict intent and confidence]
+  C --> D[Constrained response template]
+  D --> E[Risk and confidence gate]
+  E -->|recommend handling| F[Draft plus retrieved evidence]
+  E -->|escalate| G[Human review recommendation]
+  F --> H[SQLite audit record]
+  G --> H
+```
+
+“Auto handle” is only a recommendation: Relay never sends the reply or changes a customer account. The included CSV examples are synthetic fixtures and are not a real-world evaluation set.
+
 1. **Retrieve:** a small TF-IDF retriever finds up to three similar resolved examples.
 2. **Classify:** keyword scores and retrieved intent labels produce an intent and confidence estimate.
 3. **Draft:** an intent-specific template creates a reply grounded by the retrieved examples.
@@ -72,3 +88,4 @@ This makes external API requests and may incur usage charges. Compare the judge 
 - Import and command package: `relay_agent`
 - Python requirement: `>=3.10`
 - Optional environment variable: `OPENAI_API_KEY` for `--judge openai`
+
