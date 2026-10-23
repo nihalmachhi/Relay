@@ -2,7 +2,7 @@
   <img src="assets/readme-icon.png" alt="Relay icon" width="112" />
 </p>
 
-# Relay
+<h1 align="center">Relay</h1>
 
 Relay is an auditable Python prototype for handling AmazonHelp-style customer support messages. For each message, it retrieves similar historical cases, predicts an intent, drafts a constrained reply, and recommends whether to auto-handle or escalate. The result includes the retrieved examples and a reason for the decision.
 
