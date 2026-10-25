@@ -37,19 +37,15 @@ python -m unittest discover -s tests -v
 Relay processes a support message through retrieval, intent prediction, constrained drafting, and a conservative escalation check. It returns the evidence and reason so a human can decide what to do.
 
 ```mermaid
-flowchart TD
-  A[Support message] --> B[Load and validate request]
-  B --> C[Retrieve up to three similar resolved examples]
-  C --> D[Predict intent and confidence]
-  D --> E[Draft from intent-specific constrained template]
-  E --> F[Risk, confidence, and retrieval gate]
-  F -->|recommend handling| G[Draft with retrieved evidence]
-  F -->|escalate| H[Human-review recommendation]
-  G --> I[(Optional SQLite audit record)]
-  H --> I
-  G --> J[Return recommendation to caller]
-  H --> J
-  J -. no reply is sent automatically .-> K[Human decides next step]
+flowchart LR
+  A[Support message] --> B[Retrieve similar resolved examples]
+  B --> C[Predict intent and confidence]
+  C --> D[Constrained response template]
+  D --> E[Risk and confidence gate]
+  E -->|recommend handling| F[Draft plus retrieved evidence]
+  E -->|escalate| G[Human review recommendation]
+  F --> H[SQLite audit record]
+  G --> H
 ```
 
 “Auto handle” is only a recommendation: Relay never sends the reply or changes a customer account. The included CSV examples are synthetic fixtures and are not a real-world evaluation set.
